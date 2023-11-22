@@ -97,7 +97,7 @@ class ProfileFragment : Fragment() {
         }
         else{
 
-        cardsNumber_profileFrag.text = "You Have "+ cards.toString() + " Cards."
+            cardsNumber_profileFrag.text = "You Have "+ cards.toString() + " Cards."
         }
 
         shippingAddressCard_ProfilePage.setOnClickListener {
@@ -145,7 +145,7 @@ class ProfileFragment : Fragment() {
             })
             popupMenu.show()
 
-    }
+        }
 
         return view
     }
@@ -169,9 +169,9 @@ class ProfileFragment : Fragment() {
     private fun getUserData() = CoroutineScope(Dispatchers.IO).launch {
         try {
 
-             val querySnapshot = userCollectionRef
-                 .document(firebaseAuth.uid.toString())
-                 .get().await()
+            val querySnapshot = userCollectionRef
+                .document(firebaseAuth.uid.toString())
+                .get().await()
 
             val userImage:String = querySnapshot.data?.get("userImage").toString()
             val userName:String = querySnapshot.data?.get("userName").toString()

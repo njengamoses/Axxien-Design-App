@@ -65,11 +65,11 @@ class ShopFragment : Fragment() {
     }
 
     private fun setCategoryData() {
-        cateList.add(Category("Clothing","https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=649&q=80"))
-        cateList.add(Category("Jewelry","https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"))
-        cateList.add(Category("Hair Accessories","https://images.unsplash.com/photo-1626954079979-ec4f7b05e032?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"))
-        cateList.add(Category("Handbag & Wallet Accessories","https://images.unsplash.com/photo-1601924928357-22d3b3abfcfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"))
-        cateList.add(Category("One-Pieces","https://images.unsplash.com/photo-1529171374461-2ea966dee0f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"))
+        cateList.add(Category("Clothing","https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D"))
+        cateList.add(Category("Jewelry","https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amV3ZWxsZXJ5fGVufDB8fDB8fHww"))
+        cateList.add(Category("Hair Accessories","https://plus.unsplash.com/premium_photo-1661723502172-7d06afdee178?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFpciUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww"))
+        cateList.add(Category("Handbag & Wallet Accessories","https://images.unsplash.com/3/www.madebyvadim.com.jpg?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SGFuZGJhZyUyMCUyNiUyMFdhbGxldCUyMEFjY2Vzc29yaWVzfGVufDB8fDB8fHww"))
+        cateList.add(Category("One-Pieces","https://images.unsplash.com/photo-1509305717900-84f40e786d82?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbiUyMHQlMjBzaGlydHN8ZW58MHx8MHx8fDA%3D"))
 
 
 

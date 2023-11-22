@@ -63,71 +63,13 @@ class PaymentMethodActivity : AppCompatActivity(), CarDItemClickAdapter {
 
         bottomSheetView = cardAddBinding.root
 
-//      addCard_PaymentMethodPage.setOnClickListener {
-//            bottomSheet()
-//        }
+
 
     }
 
-    //    private fun getRecData() {
-//        cardViewModel.allCards.observe(this, Observer {List ->
-//            List?.let {
-//                cardAdapter.updateList(it)
-//                Item.clear()
-//                Item.addAll(it)
-//            }
-//
-//
-//        })
-//
-//
-//    }
-//
-//    private fun bottomSheet(){
-//
-//        bottomSheetView.findViewById<EditText>(R.id.nameEt_cardAddBottomSheet).text.clear()
-//        bottomSheetView.findViewById<EditText>(R.id.cardNumber_cardAddBottomSheet).text.clear()
-//        bottomSheetView.findViewById<EditText>(R.id.exp_cardAddBottomSheet).text.clear()
-//        bottomSheetView.findViewById<EditText>(R.id.cvv_cardAddBottomSheet).text.clear()
-//
-//        bottomSheetView.findViewById<Button>(R.id.addCardBtn_cardAddBottomSheet).setOnClickListener {
-//            saveData()
-//        }
-//
-//        bottomSheetDialod.setContentView(bottomSheetView)
-//        bottomSheetDialod.show()
-//    }
-//
-//
-//    private fun saveData() {
-//
-//        val holderName:String =
-//            bottomSheetView.findViewById<EditText>(R.id.nameEt_cardAddBottomSheet).text.toString()
-//
-//        val cardNumber: String = bottomSheetView.findViewById<EditText>(R.id.cardNumber_cardAddBottomSheet).text.toString()
-//        val exp : String = bottomSheetView.findViewById<EditText>(R.id.exp_cardAddBottomSheet).text.toString()
-//        val cvv : String = bottomSheetView.findViewById<EditText>(R.id.cvv_cardAddBottomSheet).text.toString()
-//
-//        var cardBrand: String = "MasterCard"
-//
-//        if(isValid(bottomSheetView.findViewById<EditText>(R.id.cardNumber_cardAddBottomSheet).text.toString().toLong())) {
-//
-//            cardBrand = CardType.detect(cardNumber)
-//                .toString()
-//
-//            cardViewModel.insert(CardEntity(holderName, cardNumber, exp, cvv, cardBrand))
-//
-//           // CreateDefCard(cardNumber,true)
-//            toast("New Card Added")
-//            bottomSheetDialod.dismiss()
-//
-//        }
-//        else{
-//            toast("Enter Valid Card.")
-//        }
-//
-//    }
-//
+
+
+
     override fun onItemDeleteClick(cardEntity: CardEntity) {
         cardViewModel.deleteCart(cardEntity)
         Toast.makeText(this, "Card Removed", Toast.LENGTH_SHORT).show()

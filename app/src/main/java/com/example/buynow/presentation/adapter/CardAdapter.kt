@@ -62,25 +62,7 @@ class CardAdapter(private val ctx: Context, val listener: CarDItemClickAdapter) 
             holder.layD.visibility = View.GONE
         }
 
-       // holder.checkbox.setOnClickListener {
 
-//            val editor:SharedPreferences.Editor =  defaultCard.edit()
-//            if(holder.checkbox.isChecked){
-//                holder.checkbox.isChecked = false
-//                editor.putBoolean("isHaveDefaultCard",false)
-//                editor.putString("cardNumber","")
-//
-//            }
-//            else{
-//                holder.checkbox.isChecked = true
-//                editor.putBoolean("isHaveDefaultCard",true)
-//                editor.putString("cardNumber",cardItem.number)
-//
-//            }
-//            editor.apply()
-//            editor.commit()
-
-      //  }
 
     }
 

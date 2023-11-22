@@ -95,7 +95,7 @@
             android:id="@+id/signUpBtn_signUpPage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/btn_bg"
+            android:background="@drawable/btn_bg2"
             android:text="Sign Up"
             android:layout_marginTop="40dp"
             android:elevation="10dp"
